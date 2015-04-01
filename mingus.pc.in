@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: mingus
+Description: A library for accessing Rational TeamConcert data
+Version: 1.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lmingus
